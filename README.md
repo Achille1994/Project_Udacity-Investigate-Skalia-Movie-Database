@@ -60,6 +60,17 @@ HINT: One way to solve it requires the use of percentiles, Window functions, sub
 
 HINT: One way to solve this question requires the use of Percentiles, Window functions and Case statements.
 
+- Question 4 : We want to find out how the two stores compare in their count of rental orders during every month for all the years we have data for.
+
+HINT: One way to solve this query is the use of aggregations.
+
+- Question 5 : We would like to know who were our top 10 paying customers, how many payments they made on a monthly basis during 2007, and what was the amount of the monthly payments.
+
+HINT: One way to solve is to use a subquery, limit within the subquery, and use concatenation to generate the customer name.
+
+- Question 6 : Finally, for each of these top 10 paying customers, I would like to find out the difference across their monthly payments during 2007.
+
+HINT: You can build on the previous questions query to add Window functions and aggregations to get the solution.
 
 # Data visualizations & queries
 In order to create the data visualizations for some interesting question above, i exported the results of my queries from the Project Workspace (PostgreSQL).I moved the data out of my PostgreSQL and into Python (import matplotlib.pyplot as plt) or another spreadsheet application like Excel, Google Sheets.
